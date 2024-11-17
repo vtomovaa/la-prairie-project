@@ -1,0 +1,1093 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header Styles */
+header {
+    background-color: #feefdd9e;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header h2,
+.header p {
+    margin: auto;
+    text-align: center;
+}
+
+header p {
+    font-size: 12px;
+}
+
+
+.header-logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    opacity: 0.8
+}
+
+.showLeft {
+    text-shadow: white !important;
+    color: black !important;
+    padding: 10px;
+}
+
+.icons li {
+    background: none repeat scroll 0 0 #333;
+    height: 7px;
+    width: 7px;
+    line-height: 0;
+    list-style: none outside none;
+    margin-right: 15px;
+    margin-top: 3px;
+    vertical-align: top;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.btn-left {
+    left: 0.4em;
+}
+
+.btn-right {
+    right: 0.4em;
+}
+
+.btn-left,
+.btn-right {
+    position: absolute;
+    top: 0.24em;
+}
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    top: -34px;
+}
+
+
+.dropdown {
+    display: inline-block;
+    right: 0.4em;
+    position: absolute;
+    top: 70px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    margin-top: 2px;
+    background-color: #feefdd9e;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+/* Product Section Styles */
+.parallax-container {
+    position: relative;
+    margin: 60px 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cream-parent {
+    position: relative;
+}
+
+.cream-image {
+    height: auto;
+    border-radius: 10px;
+}
+
+.organic-image {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transform: translateY(0);
+    transition: transform 1s ease-out;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    background-color: #feefdd2e;
+}
+
+/* First section */
+.firstSection {
+    display: block;
+}
+
+div.firstSection-div {
+    margin: auto;
+}
+
+div.firstSection-div.img {
+    width: 23%;
+    margin: auto;
+}
+
+div.firstSection-div h3 {
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: auto;
+}
+
+section.firstSection div.img {
+    width: 30%;
+    margin: auto
+}
+
+.secondSection {
+    background-image: url(../images/AntiAgeing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondSectionFirst {
+    width: 80%;
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.secondSection p {
+    color: antiquewhite;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+div.creampicture {
+    width: 60%;
+    margin: auto;
+    /* box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #feefdd2e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.thirdSection h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.thirdSection p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.third-img {
+    margin-top: 30px;
+}
+
+.third-img img {
+    max-width: 476px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.third-img img:hover {
+    transform: scale(1.05);
+}
+
+/* How to Use Section Styles */
+.how-to-use,
+.texture-section {
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 20px;
+}
+
+.how-to-use h2,
+.texture-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.how-to-use p,
+.texture-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styling for the ingredient slider */
+.ingredients {
+    text-align: center;
+    padding: 20px;
+}
+
+.ingredients h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ingredients h2::before,
+.ingredients h2::after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+    vertical-align: middle;
+}
+
+.ingredients h2::before {
+    margin-right: 10px;
+}
+
+.ingredients h2::after {
+    margin-left: 10px;
+}
+
+.ingredient-slider {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.ingredient-item {
+    flex: 0 0 auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.ingredient-item h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.ingredient-item p {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
+
+.ingredient-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.ingredient-item:hover {
+    transform: scale(1.05);
+}
+
+/*Image section*/
+
+.container.new-picture-section {
+    overflow: hidden;
+    margin-left: 0px;
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    width: 145.3%;
+    height: 100%;
+    background-image: url('../images/10-4.png.webp');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.image-with-text {
+    width: 1310px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+
+.text-block {
+    padding: 20px;
+}
+
+.text-block h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.text-block p {
+    font-size: 1em;
+}
+
+.cardcontainer {
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0);
+}
+
+.card img {
+    width: 446px;
+    height: 300px;
+    grid-area: 1 / 1 / span 1 / span 1;
+    transition: 0.3s ease-out;
+}
+
+.card p {
+    z-index: 111;
+    color: #fff;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.card .text {
+    z-index: 111;
+    color: #fff;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: start;
+    font-family: permanent marker;
+    font-size: 1em;
+    text-align: center;
+    transition: 0.3s ease-out;
+}
+
+.card:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+.card:hover .text {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* AboutUs */
+
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.about-us-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Fourth section */
+.fourthSection {
+    background-image: url('https://img.freepik.com/premium-photo/white-cosmetic-cream-texture-background-3d-render_46250-3037.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #928585;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.fourthSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.fourthSection p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.custom-btn {
+    margin-top: 20px;
+}
+
+.btn-16 {
+    padding: 15px 20px;
+    font-size: 1rem;
+    background-color: #333333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-16:hover {
+    background-color: #f9f9f9;
+    color: #22190a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;800&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+/* FAQ Section */
+
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.faq-section h1 {
+    font-size: 30px;
+}
+
+.question {
+    background-color: transparent;
+    border: solid 1px #9fa4a8;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    transition: .4s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .1);
+}
+
+.question.active::before,
+.question.active::after {
+    content: "\f075";
+    font-family: 'Font Awesome 5 Free';
+    color: #2ecc71;
+    position: absolute;
+    font-size: 100px;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+}
+
+.question.active::before {
+    color: #3498db;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
+}
+
+.faq-title {
+    margin: 0 35px 0 0;
+}
+
+.faq-p {
+    display: none;
+    margin: 30px 0 0;
+}
+
+.question.active .faq-p {
+    display: block;
+}
+
+.faq-toggle {
+    border: 0;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.faq-toggle .fa-times {
+    display: none;
+}
+
+.question.active .faq-toggle .fa-times {
+    display: block;
+    color: #fff;
+}
+
+.question.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+
+.question.active .faq-toggle {
+    background: #999;
+}
+
+/* Customer Reviews Section */
+
+.sixthSection-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixthSection-reviews span {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.sixthSection-reviews img {
+    width: 8%;
+}
+
+.sixthSection p.based {
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    width: 90%;
+    border-top: 1.5px solid #70797c;
+    margin: 15px auto;
+
+}
+
+.sixthSection h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.review .author {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 25px;
+    margin-bottom: 10px;
+
+}
+
+.review1 .author {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 25px;
+    margin-bottom: 10px;
+
+}
+
+.verified img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.verified {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+div.review {
+    width: 80%;
+    margin: auto;
+}
+
+div.review1 {
+    display: none;
+}
+
+div.review1 {
+    width: 80%;
+    margin: auto;
+}
+
+.custom-btn-btn-9 {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-9 {
+    background-image: linear-gradient(315deg, #b2bdf17e 0%, #97a4eb 74%);
+    line-height: 42px;
+    border: none;
+}
+
+.btn-9 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sixthSection button {
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Order Form Section Styles */
+.container.order-form-section {
+    background-color: #feefdd2e;
+    padding: 50px;
+    text-align: center;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.order-form h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f9f9f9;
+    color: #22190a;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #feefdd2e;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.links a {
+    margin: 50px;
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.disclaimer {
+    margin: 20px;
+}
+
+.container p {
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 667px) {
+
+    header {
+        padding: 4px;
+    }
+
+    .main-container,
+    .how-to-use,
+    .texture-section,
+    .ingredients,
+    .container.order-form-section {
+        padding: 10px;
+    }
+
+    /* Main container styles */
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .parallax-container {
+        margin: 20px;
+    }
+
+    .how-to-use,
+    .texture-section {
+        margin: 20px;
+    }
+
+    .text-block {
+        padding: 20px;
+    }
+
+    .text-block h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .text-block p {
+        font-size: 1em;
+    }
+
+    .container.new-picture-section {
+        margin-left: 0;
+    }
+
+    .image-with-text {
+        width: 100%;
+    }
+
+    .order-form,
+    form input,
+    form select,
+    form button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Dropdown menu */
+    .dropdown {
+        top: 50px;
+    }
+
+    .icons,
+    .btn-left,
+    .btn-right {
+        display: none;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        min-width: initial;
+    }
+
+    .dropdown-content a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Ingredients section */
+
+    .ingredients-section {
+        padding: 20px;
+    }
+
+    .ingredient-slider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ingredient-item {
+        margin-bottom: 20px;
+    }
+
+    .ingredient-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .ingredient-item p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .ingredients h2::before,
+    .ingredients h2::after {
+        width: 30px;
+        height: 1px;
+        margin-right: 5px;
+    }
+
+    /* Cardcontainer section */
+    .cardcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    /* Additional styles for iPad mini */
+    .main-container,
+    .how-to-use,
+    .texture-section,
+    .ingredients,
+    .container.order-form-section {
+        padding: 10px;
+    }
+
+    div.firstSection-div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .fourthSection p,
+    .about-us-section p {
+        font-size: 16px;
+    }
+
+    /* Main container styles */
+    .main-container {
+        flex-direction: column;
+    }
+
+    .parallax-container {
+        margin: 20px;
+    }
+
+    section.firstSection div.img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .secondSectionFirst {
+        width: 95%;
+        margin: auto;
+    }
+
+    .secondSection {
+        height: auto;
+    }
+
+    .secondSection p {
+        font-size: 12px;
+    }
+
+    .secondSection h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fifthSection-div {
+        display: unset;
+    }
+
+    .fifthSection h1 {
+        font-size: 30px;
+    }
+
+    .how-to-use,
+    .texture-section {
+        margin: 20px;
+    }
+
+    .text-block {
+        padding: 20px;
+    }
+
+    .text-block h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .text-block p {
+        font-size: 1em;
+    }
+
+    .container.new-picture-section {
+        margin-left: 0;
+    }
+
+    .order-form,
+    form input,
+    form select,
+    form button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Dropdown menu */
+    .dropdown {
+        top: 50px;
+    }
+
+    .icons,
+    .btn-left,
+    .btn-right {
+        display: none;
+    }
+
+    .dropbtn {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        min-width: initial;
+    }
+
+    .dropdown-content a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Ingredients section */
+    .ingredients-section {
+        padding: 20px;
+    }
+
+    .ingredient-slider {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ingredient-item {
+        margin-bottom: 20px;
+    }
+
+    .ingredient-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .ingredient-item p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .ingredients h2::before,
+    .ingredients h2::after {
+        width: 30px;
+        height: 1px;
+        margin-right: 5px;
+    }
+
+    /* Cardcontainer section */
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .sixthSection-reviews img {
+        width: 40%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .links a {
+        margin: 8px;
+    }
+}
